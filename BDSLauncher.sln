@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDSLauncher.Console", "BDSLauncher.Console\BDSLauncher.Console.csproj", "{6D24378E-3D46-4526-8CE7-D9DB00E6C73B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BDSLauncher.Server", "BDSLauncher.Server\BDSLauncher.Server.csproj", "{E63EB163-BDE5-45A1-A1E2-6D2FB6125945}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D24378E-3D46-4526-8CE7-D9DB00E6C73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D24378E-3D46-4526-8CE7-D9DB00E6C73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D24378E-3D46-4526-8CE7-D9DB00E6C73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D24378E-3D46-4526-8CE7-D9DB00E6C73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63EB163-BDE5-45A1-A1E2-6D2FB6125945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63EB163-BDE5-45A1-A1E2-6D2FB6125945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63EB163-BDE5-45A1-A1E2-6D2FB6125945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63EB163-BDE5-45A1-A1E2-6D2FB6125945}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
