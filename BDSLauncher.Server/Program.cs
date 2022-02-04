@@ -3,7 +3,8 @@ using BDSLauncher.Server;
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
     {
-        services.AddHostedService<Worker>();
+        services.AddSingleton<IBDSManager, BDSManager>();
+        services.AddHostedService<BDSConnectorWorker>();
     })
     .Build();
 

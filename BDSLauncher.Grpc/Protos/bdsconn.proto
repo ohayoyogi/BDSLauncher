@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+option csharp_namespace = "BDSLauncher.Grpc";
+
+package connector;
+
+service BDSConn {
+    rpc ListServer(ListServerInput) returns (ListServerOutput);
+    rpc Command(BedrockCommand) returns (OutgoingMessage);
+    rpc Subscribe(SubscribeTarget) returns (stream OutgoingMessage);
+}
+
+message ListServerInput {}
+
+message ListServerOutput {
+    repeated string serverNames = 1;
+}
+
+message SubscribeTarget {
+    int32 target = 1;
+}
+
+message BedrockCommand {
+    int32 target = 1;
+    string command = 2;
+}
+  
+  // The response message containing the greetings.
+message OutgoingMessage {
+    string message = 1;
+}
+  
